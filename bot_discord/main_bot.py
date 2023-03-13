@@ -77,7 +77,7 @@ async def unafk(ctx):
 
 @bot.event
 async def on_raw_reaction_add(payload):
-    ourMessageID = Put_your_MessageID
+    ourMessageID = #Message_ID
 
     if ourMessageID == payload.message_id:
         member = payload.member
@@ -90,7 +90,7 @@ async def on_raw_reaction_add(payload):
 
 @bot.event
 async def on_raw_reaction_remove(payload):
-    ourMessageID = 1052652077114998822
+    ourMessageID = #Message_ID
 
     if ourMessageID == payload.message_id:
         guild = await(bot.fetch_guild(payload.guild_id))
