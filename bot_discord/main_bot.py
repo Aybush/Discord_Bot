@@ -77,7 +77,7 @@ async def unafk(ctx):
 
 @bot.event
 async def on_raw_reaction_add(payload):
-    ourMessageID = 1052652077114998822
+    ourMessageID = Put_your_MessageID
 
     if ourMessageID == payload.message_id:
         member = payload.member
